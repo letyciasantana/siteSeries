@@ -1,0 +1,82 @@
+p {
+ color: black; 
+ text-shadow: 2px 4px 5px burlywood;
+ font-size: 36;
+ font-variant:first-of-type;
+ text-align: center;
+}
+
+.sinopse {
+   color: black;     
+   font-size: 24;
+   font-variant:first-of-type;
+   text-align: center;
+   }
+
+body{
+    background-image: url(imagens/images3002.jpg);
+}
+
+a{
+    font-size: 14;
+}
+.cenas{
+    color: black; 
+    text-shadow: 2px 4px 5px brown;
+    font-size: 36;
+    font-variant:first-of-type;
+    text-align: center;
+
+
+
+}
+
+.texto{
+    font-size: 14;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.elenco{
+    color: black; 
+    font-size: 36;
+    font-variant:first-of-type;
+    text-align: center;
+
+}
+
+.nome{
+    color: black; 
+    font-size: 16;
+    font-variant:first-of-type;
+    text-align: center;
+
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+
+
+
